@@ -1,4 +1,4 @@
-//// Book.aidl
-//package com.smasher.caidlserver;
-//
-//parcelable Book;
+// Book.aidl
+package com.smasher.caidlserver;
+
+parcelable Book;

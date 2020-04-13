@@ -25,6 +25,7 @@ public class AIDLService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
+        Log.d(TAG, "onCreate: ");
         bookList = new ArrayList<>();
         initData();
     }
@@ -48,6 +49,7 @@ public class AIDLService extends Service {
 
     @Override
     public IBinder onBind(Intent intent) {
+        Log.d(TAG, "onBind: ");
         return stub;
     }
 
